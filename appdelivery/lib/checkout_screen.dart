@@ -24,7 +24,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
         titleTextStyle: TextStyle(color: Colors.white, fontSize: 25),
       ),
 
-      body: Padding(
+      body: SingleChildScrollView(
         padding: EdgeInsets.all(16),
         child: Column(
           children: [

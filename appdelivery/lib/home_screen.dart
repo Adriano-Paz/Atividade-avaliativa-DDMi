@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:appdelivery/carrinho_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -172,6 +173,15 @@ class _HomeScreenState extends State<HomeScreen> {
         type: BottomNavigationBarType.fixed,
         selectedItemColor: Colors.black,
         selectedLabelStyle: TextStyle(color: Colors.black),
+
+        onTap: (index) {
+          if (index == 3) {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => CarrinhoScreen()),
+            );
+          }
+        },
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home_outlined, color: Colors.black),

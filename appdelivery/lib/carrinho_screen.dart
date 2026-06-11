@@ -30,7 +30,7 @@ class _CarrinhoScreenState extends State<CarrinhoScreen> {
           },
           icon: const Icon(
             Icons.keyboard_arrow_down,
-            color: Colors.red,
+            color: Colors.orangeAccent,
             size: 30,
           ),
         ),
@@ -40,7 +40,7 @@ class _CarrinhoScreenState extends State<CarrinhoScreen> {
             child: const Text(
               'Limpar',
               style: TextStyle(
-                color: Colors.red,
+                color: Colors.orangeAccent,
                 fontFamily: 'Ubuntu',
                 fontSize: 14,
                 fontWeight: FontWeight.w500,
@@ -92,7 +92,7 @@ class _CarrinhoScreenState extends State<CarrinhoScreen> {
                               child: const Text(
                                 'Adicionar mais itens',
                                 style: TextStyle(
-                                  color: Colors.red,
+                                  color: Colors.orangeAccent,
                                   fontFamily: 'Ubuntu',
                                   fontSize: 14,
                                   fontWeight: FontWeight.w600,
@@ -152,7 +152,7 @@ class _CarrinhoScreenState extends State<CarrinhoScreen> {
                                         padding: const EdgeInsets.all(7.0),
                                         child: Icon(
                                           Icons.edit,
-                                          color: Colors.red,
+                                          color: Colors.orangeAccent,
                                           size: 20,
                                         ),
                                       ),
@@ -243,7 +243,7 @@ class _CarrinhoScreenState extends State<CarrinhoScreen> {
                                         icon: Icon(
                                           Icons.remove,
                                           size: 20,
-                                          color: Colors.red,
+                                          color: Colors.orangeAccent,
                                         ),
                                       ),
                                     ),
@@ -265,7 +265,7 @@ class _CarrinhoScreenState extends State<CarrinhoScreen> {
                                         icon: Icon(
                                           Icons.add,
                                           size: 20,
-                                          color: Colors.red,
+                                          color: Colors.orangeAccent,
                                         ),
                                       ),
                                     ),
@@ -285,7 +285,7 @@ class _CarrinhoScreenState extends State<CarrinhoScreen> {
                           child: Text(
                             "Adicionar mais itens",
                             style: TextStyle(
-                              color: Colors.red,
+                              color: Colors.orangeAccent,
                               fontWeight: FontWeight.w600,
                             ),
                           ),
@@ -322,7 +322,7 @@ class _CarrinhoScreenState extends State<CarrinhoScreen> {
                           child: Text(
                             "Digitar",
                             style: TextStyle(
-                              color: Colors.red,
+                              color: Colors.orangeAccent,
                               fontWeight: FontWeight.w600,
                             ),
                           ),
@@ -499,10 +499,10 @@ class _CarrinhoScreenState extends State<CarrinhoScreen> {
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: const Color.fromARGB(
-                  211,
-                  224,
-                  41,
-                  28,
+                  210,
+                  245,
+                  161,
+                  6,
                 ), // Cor de fundo
                 foregroundColor: Colors.white,
                 minimumSize: const Size(160, 45),

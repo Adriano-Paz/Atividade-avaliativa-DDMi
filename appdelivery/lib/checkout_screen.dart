@@ -136,10 +136,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
 
                       SizedBox(height: 10),
 
-                      Text(
-                        'Combo Burger Especial',
-                        style: TextStyle(fontSize: 16),
-                      ),
+                      Text('Hamburger de siri', style: TextStyle(fontSize: 16)),
 
                       SizedBox(height: 10),
 
